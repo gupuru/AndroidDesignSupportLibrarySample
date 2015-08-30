@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <Button
+        android:id="@+id/base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="base" />
+
+    <Button
+        android:id="@+id/custom_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custom behavior" />
+
+    <Button
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="app bar layout" />
+
+    <Button
+        android:id="@+id/collapsing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="collapsing" />
+
+</LinearLayout>
+

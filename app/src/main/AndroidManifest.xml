@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gupuru.androiddesignsupportlibrarysample" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.BaseAndroidDesignsLibraryActivity"
+            android:label="@string/title_activity_base_android_designs_library" >
+        </activity>
+        <activity
+            android:name=".activity.CustomBehaviorActivity"
+            android:label="@string/title_activity_custom_behavior" >
+        </activity>
+        <activity
+            android:name=".activity.AppBarLayoutActivity"
+            android:label="@string/title_activity_app_bar_layout" >
+        </activity>
+        <activity
+            android:name=".activity.CollapsingToolbarLayoutActivity"
+            android:label="@string/title_activity_collapsing_toolbar_layout" >
+        </activity>
+    </application>
+
+</manifest>

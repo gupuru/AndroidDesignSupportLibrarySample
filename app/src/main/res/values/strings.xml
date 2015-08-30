@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AndroidDesignSupportLibrarySample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="snackbar_action">あくしょん</string>
+    <string name="title_activity_base_android_designs_library">BaseAndroidDesignsLibraryActivity
+    </string>
+    <string name="title_activity_custom_behavior">CustomBehaviorActivity</string>
+    <string name="title_activity_app_bar_layout">AppBarLayoutActivity</string>
+    <string name="title_activity_collapsing_toolbar_layout">CollapsingToolbarLayoutActivity</string>
+
+</resources>
